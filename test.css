@@ -1,0 +1,35 @@
+*{
+    background-color: brown;
+}
+.container {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-family: monospace;
+    font-weight: bold;
+    margin: 150px auto;
+
+  }
+.text {
+    font-size: 5em;
+    letter-spacing: 10px;
+    font-family: monospace;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(14), cursor .4s step-end infinite alternate;
+}
+  @keyframes cursor {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
