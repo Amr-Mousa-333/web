@@ -1,0 +1,108 @@
+ *{
+    margin: 0px;
+    padding: 0;
+}
+body{
+    background: linear-gradient(#000 ,#fff);
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+    height: 100vh;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+header{
+  width: 95%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+}
+header .logo{
+  font-size: 22px ;
+  font-weight: 800;
+  font-style: initial;
+}
+header ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+header ul li{
+  margin-right: 30px;
+}
+li:hover{
+  cursor: pointer;
+
+}
+header ul li a ,.active {
+  padding: 6px 10px;
+  &:hover ,.active {
+    background: #000;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}}
+.active{
+    background: #000;
+    border-radius: 25px;
+}
+.main{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.main::after{
+  content: '';
+  position: absolute;
+  bottom: 0;width: 100%;
+  height: 100px;
+  background: linear-gradient(to top,#000 , transparent);
+}
+.main img{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+#moon{
+   mix-blend-mode: screen;
+   transform: translateY(100px);
+   -webkit-transform: translateY(100px);
+   -moz-transform: translateY(100px);
+   -ms-transform: translateY(100px);
+   -o-transform: translateY(100px);
+}
+.novel{
+  color: #fff;
+  font-size: 30px ;
+  text-transform: uppercase;
+  transform: translateY(-100px);
+  -webkit-transform: translateY(-100px);
+  -moz-transform: translateY(-100px);
+  -ms-transform: translateY(-100px);
+  -o-transform: translateY(-100px);
+}
+.content{
+  color: #fff;
+  padding: 30px;
+}
+
+.content h2{
+  margin: 20px;
+  font-size: x-large;
+}
+.content p{
+  margin: 20px;
+  font-size: large;
+}
