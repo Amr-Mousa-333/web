@@ -25,5 +25,12 @@ function play(userMove) {
     const resultElementt = document.getElementById("resultDisplayy");
       resultElementt.innerHTML = `wins${countwin} : lose${countlose} , ties${counttie}`;
       resultElementt.style.fontSize = "30px";
+      rest.onclick = function() {
+        countwin = 0;
+        countlose = 0;
+        counttie = 0;
+        document.getElementById("resultDisplayy").innerHTML = `wins${countwin} : lose${countlose} , ties${counttie}`;
+        document.getElementById("resultDisplay").innerHTML = "";
+      };
   }
 }
