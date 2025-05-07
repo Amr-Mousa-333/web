@@ -1,0 +1,25 @@
+*{
+  background: black;
+  margin: 0;padding: 0;
+}
+button{
+  width: 70px;
+  height: 70px;
+  background-color: rgb(75, 79, 79);
+  border-radius: 35px;
+  font-size: x-large;
+  color: azure;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+  font-family: Arial;
+  border: none;
+  margin: 10px;
+} 
+button:hover{
+  border: 5px solid ;
+}
+.sp{
+  background-color: chocolate;
+}

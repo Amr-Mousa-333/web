@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="project10.css">
+</head>
+<body>
+  <p>Calculator</p>
+  <p>
+    <button onclick="
+    fu1('1');
+    ">1</button>
+
+    <button onclick="
+    fu1('2');
+    ">2</button>
+
+    <button onclick="
+    fu1('3');
+    ">3</button>
+    <button class="sp" onclick="
+    fu1('+');
+    ">+</button>
+  </p>
+  <p>
+    <button onclick="
+    fu1('4');
+    ">4</button>
+
+    <button onclick="
+    fu1('5');
+    ">5</button>
+
+    <button onclick="
+    fu1('6');
+    ">6</button>
+
+    <button class="sp" onclick="
+    fu1('-');
+    ">-</button>
+  </p>
+  <p>
+    <button onclick="
+    fu1('7');
+    ">7</button>
+
+    <button onclick="
+    fu1('8');
+    ">8</button>
+
+    <button onclick="
+    fu1('9');
+    ">9</button>
+    <button class="sp" onclick="
+    fu1('*');
+    ">*</button>
+  </p>
+  <p>
+    <button onclick="
+    fu1('0');
+    ">0</button>
+
+    <button onclick="
+      calculation += '.';
+      console.log(calculation);
+    ">.</button>
+
+    <button onclick="
+      calculation = eval(calculation);
+      console.log(calculation);
+    ">=</button>
+
+    <button class="sp" onclick="
+    fu1('/') ;
+    ">/</button>
+  </p>
+  <p>
+    <button onclick="
+      calculation = '';
+      console.log('Cleared.');
+    ">Clear</button>
+  </p>
+
+  <!-- src="project10.js" -->
+
+  <script>
+    let calculation = '';
+    function fu1(n){
+      calculation += n ;
+      console.log(calculation);
+    }
+    </script>
+</body>
+</html>
