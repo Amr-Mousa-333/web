@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amor</title>
+  <link rel="stylesheet" href="test.css">
+</head>
+<body>
+
+  <p class="Grid js-calculation"></p>
+
+  <p>
+    <button class="btn" onclick="clc('1')">1</button>
+    <button class="btn" onclick="clc('2')">2</button>
+    <button class="btn" onclick="clc('3')">3</button>
+    <button class="Gridor" onclick="clc(' + ')">+</button>
+  </p>
+
+  <p>
+    <button class="btn" onclick="clc('4')">4</button>
+    <button class="btn" onclick="clc('5')">5</button>
+    <button class="btn" onclick="clc('6')">6</button>
+    <button class="Gridor" onclick="clc(' - ')">-</button>
+  </p>
+
+  <p>
+    <button class="btn" onclick="clc('7')">7</button>
+    <button class="btn" onclick="clc('8')">8</button>
+    <button class="btn" onclick="clc('9')">9</button>
+    <button class="Gridor" onclick="clc(' * ')">*</button>
+  </p>
+
+  <p>
+    <button class="btn" onclick="clc('0')">0</button>
+    <button class="btn" onclick="clc('.')">.</button>
+    <button class="btn" onclick="
+      amorCalc = eval(amorCalc);
+      showAmor();
+      localStorage.setItem('calculation', amorCalc);
+    "> = </button>
+    <button class="Gridor" onclick="clc(' / ')">/</button>
+  </p>
+
+  <p>
+    <button class="btn clear-button" onclick="
+      amorCalc = '';
+      showAmor();
+      localStorage.setItem('calculation', amorCalc);
+    ">Clear</button>
+  </p>
+
+  <script src="test.js"></script>
+
+</body>
+</html>
