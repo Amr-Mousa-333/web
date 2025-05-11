@@ -1,0 +1,47 @@
+*{
+  background-color: aqua;
+}
+.p1{
+  margin:20px auto;
+  font-size: x-large;
+}
+
+
+#subscrib-btn{
+  background: black;
+  color: whitesmoke;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  font-style: initial;
+  width: 90px;
+  height: 35px;
+}
+.p2{
+  font-size: large;
+}
+.input{
+  width: 180px;
+  height: 35px;
+
+}
+#res{
+  font-size: smaller;
+}
+#calculat{
+    background: rgb(38, 244, 6);
+  color: rgb(255, 255, 255);
+  font-style: initial;
+  width: 120px;
+  height: 45px;
+  border: none;
+}
+
+
+
+
+
+
+
