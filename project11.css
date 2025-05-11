@@ -1,0 +1,50 @@
+/* خلفية عامة */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aqua;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* زرار عام */
+button {
+  background-color: #0b1511;
+  color: white;
+  font-size: 1.2rem;
+  margin: 0 30px;
+  cursor: pointer;
+  width: 120px;
+  height: 270px;
+  border: none;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
+
+/* تخصيص للزرين */
+#item1,
+#item2 {
+  background-color: rgb(145, 127, 127);
+}
+
+/* تأثير الهوفر */
+#item1:hover,
+#item2:hover {
+  background-color: rgb(188, 39, 39);
+  transform: scale(1.1);
+  border-radius: 25px;
+}
+
+
+
+
+
+
+
